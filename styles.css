@@ -1,0 +1,81 @@
+@font-face {
+    src: url("GNF.ttf");
+    font-family: GNF;
+}
+h1, h2, h3, p {
+    font-family: GNF;
+}
+body {
+    display: flex;
+    background-color: #72bf6a;
+    justify-content: center;
+    margin-top: 130px;
+    margin-left: 70px;
+    margin-right: 70px;
+    gap: 2.4em;
+}
+#scoreboard {
+    flex: 1;
+    border: 4px solid black;
+    border-radius: 15px;
+    padding: 0 20px 30px 20px;
+}
+#scoreboard-heading {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.score {
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 120px;
+    margin-top: 1px;
+    margin-bottom: 7px;
+    font-size: 4rem;
+}
+#score-buttons {
+    display: flex; 
+    gap: 5px;  
+    width: 100%; 
+}
+button {
+    flex: 1;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: GNF;
+    font-size: 30px;
+    margin-top: 7px;
+    width: 90px;
+    height: 50px;
+}
+.reset {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: GNF;
+    font-size: 30px;
+    margin-top: 7px;
+    width: 100%;
+    height: 50px;
+}
+button:hover {
+    font-size: 40px;
+    background-color: #4c4c4c;
+    text-shadow: 2px 2px 0 yellow;
+}
+.reset:hover {
+    font-size: 40px;
+    background-color: #4c4c4c;
+    text-shadow: 2px 2px 0 yellow;
+}
